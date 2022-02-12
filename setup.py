@@ -15,7 +15,9 @@ setup(
         'sierra_permits'
     ],
     install_requires = [
-        ''
+        'cryptography>=35.0',
+        'selenium',
+        #'beautifulsoup4'
     ],
     classifiers = [
         ''
